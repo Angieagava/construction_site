@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Office</title>
+		<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	</head>
+	<body>
+<!-<!--NAVIGATION-->
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container-fluid">
+    			<div class="navbar-header">
+    				<a class="navbar-brand" href="#">INDdES</a>
+    			</div><!--end of navbar-header-->
+    			<!--hamburger menu-->
+    			<input type="checkbox" id="menu-button"/>
+        		<label for="menu-button">&#9776;</label>
+        		<!--hamburger end-->
+    			<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+     			    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Materials <span class="caret"></span></a>
+    					 <ul class="dropdown-menu">
+        					  <li><a href="#">Carbon</a></li>
+        					  <li><a href="#">Aluminium</a></li>
+          					  <li><a href="#">Fiber</a></li>
+        				</ul>
+      				</li>
+   				    <li><a href="#">Buildings</a></li>
+   				    <li><a href="#">Interiors</a></li>
+   				    <li><a href="#">Contact</a></li>
+   				</ul>
+			</div><!--end of container-fluid-->
+		</nav>  
+<!--CAROUSEL-->
+		<section class-"carousel">	
+			<div class="container">
+		    	<div class="row">
+		        	<div id="carousel-example-generic" class="carousel slide">
+		       			<ol class="carousel-indicators">
+					        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+					        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+					        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+		        		</ol>
+			       		<div class="carousel-inner">
+				        	<div class="item active">
+				            	<img src="https://static.pexels.com/photos/38132/pexels-photo-38132-large.jpeg" alt="name">
+				            </div><!--end of item-->
+				            <div class="item">
+				            	<img src="https://static.pexels.com/photos/10643/photo-1442406964439-e46ab8eff7c4-large.jpg" alt="name">
+				            </div><!--end of item-->
+				            <div class="item">
+				          	    <img src="https://static.pexels.com/photos/69040/pexels-photo-69040-large.png" alt="name">
+				            </div><!--end of item-->
+				            <div class="item">
+				           		 <img src="https://static.pexels.com/photos/99643/pexels-photo-99643-large.jpeg" alt="name">
+				            </div><!--end of item-->
+				            <div class="item">
+				           		 <img src="https://static.pexels.com/photos/99626/pexels-photo-99626-large.jpeg" alt="name">
+				            </div><!--end of item-->
+		       			</div><!--end of carousel-inner-->
+		 <!--controls-->
+			        	<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+			         	<span class="icon-prev"></span></a>
+			        	<a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+			            <span class="icon-next"></span></a>
+			        </div><!--end of carousel-indicators-->
+		        </div><!--end of row-->
+		    </div><!--end of container-->
+	    </section>
+<!--TABS-->
+		<section class="tabs">
+			<div class="container">
+	  			<h3>Materials</h3>
+	  			<ul class="nav nav-tabs" role="tablist">
+				    <li class="active"><a href="#home" role="tab" data-toggle="tab">Home</a></li>
+				    <li><a href="#glass" role="tab" data-toggle="tab">Glass</a></li>
+				    <li><a href="#carbon" role="tab" data-toggle="tab">Carbon</a></li>
+				    <li><a href="#aluminium" role="tab" data-toggle="tab">Aluminium</a></li>
+				    <li><a href="#fiber" role="tab" data-toggle="tab">Fiber</a></li>
+				</ul>
+	  			<div class="tab-content">
+  					<div class="tab-pane active" id="home">
+	  					<p>From the beginning of 20th century modern architecture has been instrumental in mass production of concrete, glass and steel buildings in the factories we call cities. This ideology helped accommodate housing needs of the burgeoning middle class.  Glass and steel construction have become the symbol of development in many countries, where people tend to see these buildings as symbols of affluence and luxury.</p>
+	  				</div>
+ 					<div class="tab-pane" id="glass">
+ 						<p>Glass has been a fascinating material to humankind since it was first made in about 500 BC. At first thought to possess magical properties, glass has come a long way. It is one of the most versatile and oldest materials in the building industry.  From its humble beginnings as a window pane in luxury houses of Pompeii to sophisticated structural members in new age buildings, its role in architecture has evolved over the years.</p>
+ 					</div>
+					<div class="tab-pane" id="carbon">
+						<p>By 11th century sheet glass was made by the crown glass process. In this process, the glassblower would spin molten glass at the end of a rod until it flattened into a disk. The disk would then be cut into panes. By 13th century, this technique was perfected in Venice. Stain glass windows were used in gothic renaissance and baroque architecture from the 11th to the 18th century. The examples of stunning patterns created by using colorful glass are immortalized by great artists all over the world.The Crown glass process was used up to the mid-19th century. in the 19th century, flat / sheet glass windows were used in making windows. These were completely flat and did not have any optical distortions.</p>
+					</div>
+					<div class="tab-pane" id="aluminium">
+						<p>Large quantities of raw materials (clear sand, calcium oxide and sodium carbonate)are brought to the glass production plant. They are then weighed and mixed in the right proportion. Certain admixtures are added to the batch to give the glass appropriate proprieties or color.</p>
+					</div>
+					<div class="tab-pane" id="fiber">
+						<p>The mixture is then heated in a gas fired furnace or electric smelter, pot furnace or kiln. Quartz sand without additives becomes glass at a temperature of 2,300 degrees Celsius Adding sodium carbonate (soda) reduces the temperature needed to make glass to 1,500 degrees Celsius.</p>
+					</div>
+  				</div><!--end of tab-content
+			</div><!--end of container-->
+		</section-->
+<!--MODAL-->
+		<button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#xm">OPEN</button>
+		<div id="xm" class="modal fade" role="dialog">
+  			<div class="modal-dialog">
+   				<div class="modal-content">
+   					<div class="modal-header">
+	       				<h4>Let us know</h4>
+	       			</div><!--end of modal header-->
+	       			<div class="modal-body">
+	       				<p>We also take great pains to ensure that our quality of writing is of a high standard.  We aim to take complicated situations and make them simple and clear, as well as to provide content that is interesting to industry experts and newcomers alike.</p>
+	       				<p>Do let us know where we succeed - and where we fail - in this task.</p>
+	      			</div><!--end of modal body-->
+	      			<div class="modal-footer">
+	       				 <p>INDdES Construction</p>
+	        			 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      			</div><!--end of modal footer-->
+				</div><!--end of modal content-->
+			</div><!--end of modal dialog-->
+		</div><!--end of xm-->
+	</body>
+</html>
